@@ -1,6 +1,6 @@
 # **Treatment Prediction for Major Depression**
 
-Yong Jiao, Kanhao Zhao, Xinxu Wei, Nancy B. Carlisle, Corey J. Keller, Desmond J. Oathes, Gregory A. Fonzo, Yu Zhang. **Deep graph learning of multimodal brain networks defines treatment-predictive signatures in major depression.** *Molecular Psychiatry*, 2025. 
+Yong Jiao, Kanhao Zhao, Xinxu Wei, Nancy B. Carlisle, Corey J. Keller, Desmond J. Oathes, Gregory A. Fonzo, Yu Zhang. [**Deep graph learning of multimodal brain networks defines treatment-predictive signatures in major depression.**](https://doi.org/10.1038/s41380-025-02974-6) *Molecular Psychiatry*, 2025.
 
 <div align=center>
 <img src="https://github.com/YongJiao10/MultimodalGraph4MDD/blob/main/img/flowchart.png" width="1000">
@@ -21,3 +21,15 @@ We implemented the graph neural network in PyTorch 2.1.1 to jointly encode fMRI 
 
 ## 📖 Reference
 [1] Zhou, G., Cichocki, A., Zhang, Y., & Mandic, D. P. (2015). [Group component analysis for multiblock data: Common and individual feature extraction](https://ieeexplore.ieee.org/abstract/document/7310871?casa_token=Cdu6A3mH3IEAAAAA:IzoNtiv3PHed1cKE7foyeXkp0gb2o0St4aSEuiQmaFHYZKPa9YU7iS2_ZY81PImCkEYMg_IAsCI). *IEEE Transactions on Neural Networks and Learning Systems*, **27**(11), 2426–2439.
+
+## 📝 Citation
+If you find this code useful, please consider citing our paper:
+
+```bibtex
+@article{jiao2025multimodal,
+  title={Deep graph learning of multimodal brain networks defines treatment-predictive signatures in major depression},
+  author={Jiao, Yong and Zhao, Kanhao and Wei, Xinxu and Carlisle, Nancy B and Keller, Corey J and Oathes, Desmond J and Fonzo, Gregory A and Zhang, Yu},
+  journal={Molecular Psychiatry},
+  year={2025},
+  doi={10.1038/s41380-025-02974-6}
+}
