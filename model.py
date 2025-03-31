@@ -109,7 +109,13 @@ class MyModel(nn.Module):
     
     def forward(self, x, get_latent=False):
         '''
-        x: (batch_size, 2, num_nodes, in_dim)
+        Args:
+            x: Tensor of shape (batch_size, 2, num_nodes, in_dim)
+            - Dimension 1 (size=2): modality index, where
+                x[:, 0, :, :] corresponds to fMRI input,
+                x[:, 1, :, :] corresponds to EEG input.
+            - Dimension 2: number of brain nodes (e.g., ROIs).
+            - Dimension 3: input features per node.
         '''
         batch_size = x.size(0)
 
