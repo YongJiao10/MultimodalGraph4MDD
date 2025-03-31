@@ -10,7 +10,7 @@ Yong Jiao, Kanhao Zhao, Xinxu Wei, Nancy B. Carlisle, Corey J. Keller, Desmond J
 We used the publicly available [EMBARC dataset](https://nda.nih.gov/edit_collection.html?id=2199), which includes multimodal neuroimaging and clinical data from patients with Major Depressive Disorder (MDD).
 
 ## Functional Connectivity Augmentation
-we developed a functional connectivity (FC) augmentation strategy based on **Common Orthogonal Basis Extraction (COBE)** [1].
+We developed a functional connectivity (FC) augmentation strategy based on **Common Orthogonal Basis Extraction (COBE)** [1].
 
 <div align=center>
 <img src="https://github.com/YongJiao10/MultimodalGraph4MDD/blob/main/img/augmentation.png" width="1000">
