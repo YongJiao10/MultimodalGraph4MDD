@@ -30,6 +30,6 @@ If you find this code useful, please consider citing our paper:
   title={Deep graph learning of multimodal brain networks defines treatment-predictive signatures in major depression},
   author={Jiao, Yong and Zhao, Kanhao and Wei, Xinxu and Carlisle, Nancy B and Keller, Corey J and Oathes, Desmond J and Fonzo, Gregory A and Zhang, Yu},
   journal={Molecular Psychiatry},
-  year={2025},
-  doi={10.1038/s41380-025-02974-6}
+  pages={1--12},
+  year={2025}
 }
